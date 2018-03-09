@@ -90,10 +90,10 @@ a {
   transition: 0.1s;
   -webkit-transition: 0.1s;
 }
-#gallery li.loaded:hover img {
+/*#gallery li.loaded:hover img {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
-}
+}*/
 #gallery li.loaded.video:hover::before {
-  opacity: 0;
+  opacity: 100;
 }
