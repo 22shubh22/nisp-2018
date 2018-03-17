@@ -314,19 +314,31 @@ section.hero .inner-hero {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
-h1.large {
+h1 {
     color: #ffffff;
     font-size: 70px;
     font-weight: 700;
     text-transform: none;
 }
+
+.largeone { }
+.largetwo { font-style: italic; }
+
 .hero-content h3 {
-    font-style: italic;
-    font-size: 46px;
+    font-size: 55px;
+    color: #ffffff;
+    text-transform: none;
+    font-weight: 550;
+    font-strech: extra-expanded;
+}
+
+.hero-content h2 {
+    font-size: 20px;
     color: #ffffff;
     text-transform: none;
     font-weight: 300;
 }
+
 .hero-content p {
     font-size: 15px;
     font-weight: 500;
